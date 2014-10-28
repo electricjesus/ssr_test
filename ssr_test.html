@@ -1,0 +1,16 @@
+<head>
+  <title>ssr_test</title>
+  <meta name="fragment" content="!">
+</head>
+<body></body>
+<template name="default">
+	{{> yield}}
+</template>
+<template name="home">
+</template>
+<template name="view_post">
+	hello post {{is_server}}
+</template>
+<template name="view_post_server">
+	hello post server {{is_server}} 
+</template>
